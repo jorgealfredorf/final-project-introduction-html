@@ -4,10 +4,10 @@
 		<meta charset="UTF-8">
 			<style>
 				header {
-				background-color: #776144;
+				background-color: #ffffff;
 				padding: 20px;
 				text-align: center;
-				color: #ffffff
+				color: #776144
 				}
 
 				brand-logo {
@@ -45,34 +45,42 @@
 				}
 
 				li {
-				margin-bottom: 5px; /* adds space below each item */
+				margin-bottom: 5px;
 				}
 
 				founder-img {
 				display: block;
-				margin-left: auto;
 				float: right;
 				width: 500px;
 				height: auto;
 				}
 
 				main{
-					padding-left: 35px;
-					padding-right: 35px;
+				padding-left: 35px;
+				padding-right: 35px;
+				justify-content: center;					
 				}
 				
 				footer {
 				background-color: #f2f2f2;
 				padding: 20px;
 				text-align: center;
+				justify-content: center;
 				font-size: 16px;
 				font-weight: bold;
 				}
 
-				table-gallery {
+				section.table-gallery {
+				display: flex;
+  				flex-wrap: wrap;
 				justify-content: center;
 				align-items: center;
 				}
+
+				section.table-gallery h2 {
+				display: flex;
+				width: 100%;
+				text-align: center;
 
 				gallery-image {
 				display: inline-block;
@@ -86,7 +94,7 @@
 	<body>
 	<header>
 		<img class="brand-logo" src="https://jorgealfredorf.github.io/final-project-introduction-html/lf_etiqueta_web/Images/logoLFEtiqueta.PNG" alt="LF Etiqueta Logo" width="200px">
-		<h1>LF Etiqueta</h1>
+		<h1>LF Ettiquete & Event Planning</h1>
 		<h3>Teaching core social and profesional etiquette principles.</h3>
 	</header>
 		<section> <!-- Navigation menu -->
@@ -104,7 +112,7 @@
 	<main>
 	<section> <!-- About LF Etiqueta, it's mission, teachings and founder -->
 		<div>
-			<h2 id="about">About LF Etiqueta</h2>
+			<h2 id="about">About LF Ettiquete & Event Planning</h2>
 			<p>
 				At <strong>LF Etiqueta</strong>, we focus on cultivating essential social and professional etiquette skills that empower individuals to navigate various settings with confidence and respect. Our curriculum is designed to instill core values of courtesy, respect, and professionalism, while also fostering a deeper understanding of cultural nuances in both Dominican and international contexts.
 			</p>
@@ -132,7 +140,7 @@
 				</li>
 			</ul>
 		</div>
-		<div>
+		<div justify-content="center" width="100%">
 			<h2 id="supporting-skills">Supporting skills</h2>
 			<ul>
 				<li>
@@ -156,12 +164,12 @@
 		     </p>She has experience conducting workshops and providing personalized advice for children, young people, adults, and public and private employees, helping each one to have polite and pleasant relationships through programs focused on individual needs, offering practical tools to interact with elegance, education, and courtesy in all situations. She also has experience in event setup and decoration. Thanks to her knowledge of etiquette and good manners, she has been able to complement her work as a teacher with the creation of elegant and sophisticated environments.</p>
 	    </div>
 	</section>
-	<section class="table-gallery" justify-content="center"id="table-settings"> <!--Table setting gallery-->
+	<section class="table-gallery" id="table-settings"> <!--Table setting gallery-->
 		<h2>Get yourself started with these examples of tablesettings</h2>
-		<img class="gallery-image" src="https://jorgealfredorf.github.io/final-project-introduction-html/lf_etiqueta_web/Images/breakfast.jpg" alt="Breakfast table setting" width="200px">
-		<img class="gallery-image" src="https://jorgealfredorf.github.io/final-project-introduction-html/lf_etiqueta_web/Images/buffet.jpg" alt="Buffet table setting" width="200px">
-		<img class="gallery-image" src="https://jorgealfredorf.github.io/final-project-introduction-html/lf_etiqueta_web/Images/casual.jpg" alt="Casual table setting" width="200px">
-		<img class="gallery-image" src="https://jorgealfredorf.github.io/final-project-introduction-html/lf_etiqueta_web/Images/formal.jpg" alt="Formal table setting" width="200px">		
+		<img class="gallery-image" src="https://jorgealfredorf.github.io/final-project-introduction-html/lf_etiqueta_web/Images/breakfast.jpg" alt="Breakfast table setting" width="425px">
+		<img class="gallery-image" src="https://jorgealfredorf.github.io/final-project-introduction-html/lf_etiqueta_web/Images/buffet.jpg" alt="Buffet table setting" width="425px">
+		<img class="gallery-image" src="https://jorgealfredorf.github.io/final-project-introduction-html/lf_etiqueta_web/Images/casual.jpg" alt="Casual table setting" width="425px">
+		<img class="gallery-image" src="https://jorgealfredorf.github.io/final-project-introduction-html/lf_etiqueta_web/Images/formal.jpg" alt="Formal table setting" width="425px">		
 	</section>
 	<h4><a href="#navigation">Return to top!</a></li></h4>
 	</main>
