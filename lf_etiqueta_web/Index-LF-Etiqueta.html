@@ -10,9 +10,12 @@
 				color: #ffffff
 				}
 
-				main{
-					padding-left: 20px;
-					padding-right: 20px;
+				brand-logo {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 250px;
+				height: auto;
 				}
 
 				nav {
@@ -22,6 +25,12 @@
 				justify-content: center;
 				align-items: center;
 				font-weight: bold;
+				}
+
+				body {
+				font-family: Arial, Helvetica, sans-serif;
+				background-color: #ffffff;
+				font-size: 18px;
 				}
 
 				nav ul{
@@ -35,6 +44,10 @@
 				margin: 0; 
 				}
 
+				li {
+				margin-bottom: 5px; /* adds space below each item */
+				}
+
 				founder-img {
 				display: block;
 				margin-left: auto;
@@ -43,30 +56,25 @@
 				height: auto;
 				}
 
-				brand-logo {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 250px;
-				height: auto;
+				main{
+					padding-left: 20px;
+					padding-right: 20px;
 				}
-
-				li {
-				margin-bottom: 5px; /* adds space below each item */
-				}
-
+				
 				footer {
 				background-color: #f2f2f2;
 				padding: 20px;
 				text-align: center;
-				font-size: 20px;
+				font-size: 16px;
 				font-weight: bold;
 				}
 
-				body {
-				font-family: Arial, Helvetica, sans-serif;
-				background-color: #ffffff;
-				}	
+				gallery {
+				display: inline-block;
+				margin: 15px;
+				justify-content: center;
+				align-items: center;
+				}
 			</style>
 			<title>LF Etiqueta Template Page</title>
 		</head>
@@ -89,6 +97,7 @@
   </nav>
 		</section>
 	<main>
+	<section> <!-- About LF Etiqueta, it's mission, teachings and founder -->
 		<div>
 			<h2 id="about">About LF Etiqueta</h2>
 			<p>
@@ -141,6 +150,14 @@
 			<p><strong>María Dolores Fernández</strong> (Loli), has been a teacher of etiquette and good manners for over 15 years. With her primary focus being to enrich people by promoting better behavior, social and work conduct based on respect and consideration for others.</p>
 		     </p>She has experience conducting workshops and providing personalized advice for children, young people, adults, and public and private employees, helping each one to have polite and pleasant relationships through programs focused on individual needs, offering practical tools to interact with elegance, education, and courtesy in all situations. She also has experience in event setup and decoration. Thanks to her knowledge of etiquette and good manners, she has been able to complement her work as a teacher with the creation of elegant and sophisticated environments.</p>
 	    </div>
+	</section>
+	<section justify-content="center"id="table-settings"> <!--Table setting gallery-->
+		<h2>Get yourself started with these examples of tablesettings</h2>
+		<img class="table-gallery" src="lf_etiqueta_web/Images/breakfast.jpg" alt="Breakfast table setting" width="200px">
+		<img class="table-gallery" src="lf_etiqueta_web/Images/buffet.jpg" alt="Buffet table setting" width="200px">
+		<img class="table-gallery" src="lf_etiqueta_web/Images/casual.jpg" alt="Casual table setting" width="200px">
+		<img class="table-gallery" src="lf_etiqueta_web/Images/formal.jpg" alt="Formal table setting" width="200px">		
+	</section>
 	</main>
 	<footer>
 		<h5 id="contact"> Contact Us</h5>
